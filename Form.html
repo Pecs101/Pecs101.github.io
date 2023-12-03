@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Form with Icons</title>
+
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-d3YB03F5fQApBs7GpSTPblJnM5V2nXmGfDpr/4jiwdjd2+1l9+I4BZHpLKZmdRS7" crossorigin="anonymous">
+    <style>
+        /* Basic styles for the form */
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group input {
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .input-group .fa {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Enter your name" name="name">
+        </div>
+        <div class="input-group">
+            <i class="fas fa-university"></i>
+            <input type="text" placeholder="Enter bank account number" name="bank-account">
+        </div>
+        <div class="input-group">
+            <i class="fas fa-phone"></i>
+            <input type="tel" placeholder="Enter your phone number" name="phone">
+        </div>
+        <div class="input-group">
+            <i class="fas fa-address-card"></i>
+            <input type="text" placeholder="Enter your address" name="address">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

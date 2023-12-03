@@ -1,0 +1,107 @@
+ 
+ 
+/* Basic styles for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b4661;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar img {
+    height: 40px; /* Adjust the height of the logo */
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px !IMPORTANT;
+}
+
+.user img {
+    width: 40px; /* Adjust the width of the user image */
+    height: 40px; /* Adjust the height of the user image */
+    border-radius: 50%; /* Make the image circular */
+    border: 2px solid white; /* Add a border around the image */
+}
+
+.logo {
+    order: 2; /* Align logo to the right by changing the order */
+}
+
+.user {
+    order: 1; /* Align user image to the left by changing the order */
+    margin-right: auto; /* Push the user image to the far left */
+}
+
+img.clogo {
+    top: 8px !important;
+}
+
+.flat-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-color: white;
+    border-radius: 4px;
+    background-color: rgb(12 69 96);
+    color: #333;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.flat-button:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+
+/* Styles for the dropdown button and content */
+.dropbtn {
+    background-color: #f0f0f0; /* Button background color */
+    color: #333; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Show dropdown content when the button is clicked */
+.show {
+    display: block;
+}
